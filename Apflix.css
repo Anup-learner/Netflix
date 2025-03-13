@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+video{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 9999;
+}
+.main{
+	min-height: 100vh;
+	height: auto;
+	position: relative;
+}
+.navigation{
+	width: 100%;
+	height: 80px;
+	background: black;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	background: rgba(11, 11, 11, 0.76);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(2.2px);
+}
+.menu,.logo,.profiles{
+	width: 33.3%;
+	display: flex;
+	align-items: center;
+
+}
+#search{
+	height: 40px;
+	width: 40px;
+	margin-left:20px ;
+	display: inline-block;
+}
+.mn{
+	color: white;
+	display: inline-block;
+	font-size: 20px	;
+	font-weight: 700;
+	margin-left: 5px;
+}
+.logo{
+	justify-content: center	;
+}
+#netf{
+	width: 40%;
+	height: 100%;
+}
+.profiles{
+	display: flex;
+	justify-content: flex-end;
+}
+.friends{
+	margin-right: 20px;
+	color: red;
+	font-size: 30px;
+}
+#noti{
+	width: 30px;
+	height: 30px;
+}
+#pf{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 30px;
+	margin-left: 10px;
+}
+.intro{
+	min-height: 900px;
+	height: auto;
+	background: url(poster.jpg) center/cover no-repeat;
+	background-position-x: 140px;
+}
+.text{
+	height:900px;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(102,0,255,0) 100%);
+}
+.content{
+	width: 40%;
+	height: 100%;
+	color: white;
+	padding: 70px;
+	padding-top: 200px;
+
+}
+.content h1{
+	font-size: 40px	;
+	text-align: center;
+	display: block;
+}
